@@ -1,0 +1,19 @@
+name: EventsPro
+main: Atom\eventsPro\EventsPro
+version: 0.0.1
+api: [3.0.0]
+permissions:
+  events.create:
+    default: op
+    description: allows users to create events
+
+  events.addarena:
+    default: op
+    description: allows user to set battle arena
+
+  events.delarena:
+    default: op
+    description: allows userv to delete battle arena
+
+depend:
+  - PurePerms
